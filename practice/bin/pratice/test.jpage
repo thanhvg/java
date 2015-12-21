@@ -1,0 +1,71 @@
+new Iterator {
+Syntax error, insert ";" to complete BlockStatementsstock cannot be resolved	return stock.value().iterator(); // is this thread safe? can afford two separate iterations? 
+	// depend on the .iterator() method. If it return new object then you'll be fine
+	
+}
+Path cannot be resolved to a typePaths cannot be resolved
+Syntax error on token "package", assert expected//package java.nio.file; 
+Path cannot be resolved to a typeSyntax error on token "be", ; expectedSyntax error on token "be", ; expectedPaths cannot be resolvedPath cannot be resolved to a typePaths cannot be resolvedPath cannot be resolved to a typePath path = Paths.get("/home/joe/foo");
+
+System.out.format("toString: %s%n", path.toString());
+System.out.format("getFileName: %s%n", path.getFileName());
+System.out.format("getName(0): %s%n", path.getName(0));
+System.out.format("getNameCount: %d%n", path.getNameCount());
+System.out.format("subpath(0,2): %s%n", path.subpath(0,2));
+System.out.format("getParent: %s%n", path.getParent());
+System.out.format("getRoot: %s%n", path.getRoot());
+
+class Person {
+    private double heightInCm;
+    private double heightInM;
+ 
+    public void setHeightInM(double _heightInM) {
+        heightInM = _heightInM;
+        heightInCm = _heightInM * 100;
+    }
+}
+ 
+Person p = new Person();
+p.setHeightInM(1.79);
+ 
+//IMPORTANT: do not put a ; for the last line!
+p
+
+ot be resolved to a typeFiles cannot be resolvedBasicFileAttributes cannot be resolved to a typePath file = Paths.get("/home");
+BasicFileAttributes attr = Files.readAttributes(file, BasicFileAttributes.class);
+
+System.out.println("creationTime: " + attr.creationTime());
+System.out.println("lastAccessTime: " + attr.lastAccessTime());
+System.out.println("lastModifiedTime: " + attr.lastModifiedTime());
+
+System.out.println("isDirectory: " + attr.isDirectory());
+System.out.println("isOther: " + attr.isOther());
+System.out.println("isRegularFile: " + attr.isRegularFile());
+System.out.println("isSymbolicLink: " + attr.isSymbolicLink());
+System.out.println("size: " + attr.size());
+
+Syntax error on token "be", ; expectedIOException cannot be resolved to a typeIOException cannot be resolved to a typeIOException cannot be resolved to a typeIOException cannot be resolved to a typetry {
+    Path tempFile = Files.createTempFile(null, ".myapp");
+    System.out.format("The temporary file" + " has been created: %s%n", tempFile);
+} catch (IOException x) {
+    System.err.format("IOException: %s%n", x);
+}
+
+Syntax error on token "be", ; expectedFileSystems cannot be resolvedFileSystems cannot be resolvedIterable<Path> dirs = FileSystems.getDefault().getRootDirectories();
+for (Path name: dirs) {
+    System.out.println(name);
+} 
+
+Syntax error on token "/", delete this tokenDirectoryStream cannot be resolved to a typeNo exception of type Object can be thrown; an exception type must be a subclass of ThrowableDirectoryIteratorException cannot be resolved to a type
+
+No exception of type Object can be thrown; an exception type must be a subclass of ThrowableDirectoryIteratorException cannot be resolved to a type
+Path dir = Paths.get("/tmp");
+try (DirectoryStream<Path> stream = Files.newDirectoryStream(dir)) {
+    for (Path file: stream) {
+        System.out.println(file.getFileName());
+    }
+} catch (IOException | DirectoryIteratorException x) {
+    // IOException can never be thrown by the iteration.
+    // In this snippet, it can only be thrown by newDirectoryStream.
+    System.err.println(x);
+}

@@ -1,0 +1,45 @@
+Syntax error on token "enum", ; expectedThe member enum State can only be defined inside a top-level class or interface or in a static contextSyntax error on token "a", ; expectedThe member enum State can only be defined inside a top-level class or interface or in a static contextIllegal modifier for the local class Driver; only abstract or final is permittedState cannot be resolved to a typeState cannot be resolved to a variableState cannot be resolved to a typeState cannot be resolved to a typeState cannot be resolved to a typeState cannot be resolved to a typeState cannot be resolved to a typeState cannot be resolved to a typeState cannot be resolved to a typeState cannot be resolved to a typeState cannot be resolved to a typeState cannot be resolved to a typeState cannot be resolved to a typeState cannot be resolved to a typeThe method main cannot be declared static; static methods can only be declared in a static or top level typepublic enum State {
+    ON(1) {
+      public State turnOn() {
+        System.err.println("Already ON");
+        return ON;
+      }
+      public State turnOff() {
+        System.err.println("Turning OFF");
+        return OFF;
+      }
+    },
+    OFF(0) {
+      public State turnOn() {
+        System.err.println("Turning ON");
+        return ON;
+      }
+      public State turnOff() {
+        System.err.println("Already OFF");
+        return OFF;
+      }
+    };
+
+    private int val;
+    State(int val) {
+      this.val = val;
+    }
+
+    public abstract State turnOn();
+    public abstract State turnOff();
+}
+public class Driver {
+    private State state = State.OFF;
+    public void go() {
+      System.out.print("turnOn()\t");  state = state.turnOn();
+     System.out.print("turnOn()\t");  state = state.turnOn();
+      System.out.print("turnOff()\t"); state = state.turnOff();
+     System.out.print("turnOff()\t"); state = state.turnOff();
+      System.out.print("turnOn()\t");  state = state.turnOn();
+      System.out.print("turnOn()\t");  state = state.turnOn();
+
+    }
+    public static void main(String[] args) {
+      new Driver().go();
+    }
+}Syntax error, insert "VariableDeclarators" to complete LocalVariableDeclarationSyntax error, insert ";" to complete BlockStatementsSyntax error, insert "VariableDeclarators" to complete LocalVariableDeclarationSyntax error, insert ";" to complete BlockStatementsSyntax error, insert "VariableDeclarators" to complete LocalVariableDeclarationSyntax error, insert ";" to complete BlockStatementsIllegal modifier for the local class Test; only abstract or final is permittedList cannot be resolved to a typeIllegal modifier for the local class Test; only abstract or final is permittedIllegal modifier for the local class Test; only abstract or final is permittedclass Test {	String str;	int y;		public Test (String str, int y) {		this.str = str;		this.y = y;	}}	Test a           ;	List<Test> l = new ArrayList<>();	a = new Test("Test 1", 1);	l.add(a);	a = new Test("Test 2", 2);	l.add(a);	a = null;		for (Test b : l) {		System.out.println(b.toString());	}Cannot use this in a static contextCannot use this in a static contextCannot use this in a static contextgo();String s = String.format("%05d", 7);System.out.println(s); 

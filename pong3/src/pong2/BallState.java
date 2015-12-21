@@ -1,0 +1,11 @@
+package pong2;
+
+public enum BallState {
+	MOVELEFT,
+	STOPPED,
+	MOVERIGHT,
+	TOUCHLEFT,
+	TOUCHRIGHT,
+	TOSERVE,
+	SERVE;
+}

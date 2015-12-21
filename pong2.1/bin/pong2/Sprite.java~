@@ -1,0 +1,57 @@
+package pong2;
+
+import java.awt.Graphics;
+
+public class Sprite implements GameConstants {
+	int x, y;
+	int dx, dy; //speed 
+
+    //x, y getters setters
+    int getX() { 
+	return x;
+    }
+
+    int getY() {
+	return y;
+    }
+
+    void setX(int x) {
+	this.x = x;
+    }
+
+    void setY(int y) {
+	this.y = y;
+    }
+    
+    //dx, dx getters setters
+    int getdX() { 
+	return dx;
+    }
+
+    int getdY() {
+	return dy;
+    }
+
+    void setdX(int dx) {
+	this.dx = dx;
+    }
+
+    void setdY(int dy) {
+	this.dy = dy;
+    }
+    
+    void init(int x, int y, int dx, int dy) {
+	this.x = x   ;
+	this.y = y   ;
+	this.dx = dx ;
+	this.dy = dy ;
+    }
+
+    public Sprite(int x, int y, int dx, int dy)  {
+	init (x,y,dx,dy);
+    }
+
+    void draw(Graphics g) {
+    }
+    
+}

@@ -1,0 +1,5 @@
+package com.practicaljava.lesson6;
+int INCREASE_CAP = 20;
+public interface Payable {
+	boolean increasePay(int percent);
+}

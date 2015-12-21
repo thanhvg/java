@@ -1,0 +1,63 @@
+{
+  "C:\\Program Files (x86)\\Java\\jre7\\lib\\rt.jar": {
+    "coordinate": "jre:jre:zip:call:1.0.0",
+    "location": "C:\\Program Files (x86)\\Java\\jre7\\lib\\rt.jar",
+    "status": "RESOLVED"
+  },
+  "C:\\Program Files (x86)\\Java\\jre8\\lib\\rt.jar": {
+    "coordinate": "jre:jre:zip:call:1.0.0",
+    "location": "C:\\Program Files (x86)\\Java\\jre8\\lib\\rt.jar",
+    "status": "RESOLVED"
+  },
+  "C:\\Users\\Thanh\\Dropbox\\workspace\\lesson6\\src": {
+    "location": "C:\\Users\\Thanh\\Dropbox\\workspace\\lesson6\\src",
+    "status": "UNRESOLVED",
+    "error": "No class path info available for \u0027C:\\Users\\Thanh\\Dropbox\\workspace\\lesson6\\src\u0027. Skipped."
+  },
+  "C:\\Users\\Thanh\\Dropbox\\workspace\\lesson8\\src": {
+    "location": "C:\\Users\\Thanh\\Dropbox\\workspace\\lesson8\\src",
+    "status": "UNRESOLVED",
+    "error": "No class path info available for \u0027C:\\Users\\Thanh\\Dropbox\\workspace\\lesson8\\src\u0027. Skipped."
+  },
+  "C:\\Users\\Thanh\\Dropbox\\workspace\\lesson12\\src": {
+    "location": "C:\\Users\\Thanh\\Dropbox\\workspace\\lesson12\\src",
+    "status": "UNRESOLVED",
+    "error": "No class path info available for \u0027C:\\Users\\Thanh\\Dropbox\\workspace\\lesson12\\src\u0027. Skipped."
+  },
+  "C:\\Users\\Thanh\\Dropbox\\workspace\\calc\\src": {
+    "location": "C:\\Users\\Thanh\\Dropbox\\workspace\\calc\\src",
+    "status": "UNRESOLVED",
+    "error": "No class path info available for \u0027C:\\Users\\Thanh\\Dropbox\\workspace\\calc\\src\u0027. Skipped."
+  },
+  "C:\\Users\\Thanh\\Dropbox\\workspace\\Hello\\src": {
+    "location": "C:\\Users\\Thanh\\Dropbox\\workspace\\Hello\\src",
+    "status": "UNRESOLVED",
+    "error": "No class path info available for \u0027C:\\Users\\Thanh\\Dropbox\\workspace\\Hello\\src\u0027. Skipped."
+  },
+  "C:\\Users\\Thanh\\Documents\\Dropbox\\workspace\\calc\\src": {
+    "location": "C:\\Users\\Thanh\\Documents\\Dropbox\\workspace\\calc\\src",
+    "status": "UNRESOLVED",
+    "error": "No class path info available for \u0027C:\\Users\\Thanh\\Documents\\Dropbox\\workspace\\calc\\src\u0027. Skipped."
+  },
+  "C:\\Program Files (x86)\\Java\\jre1.8.0_20\\lib\\rt.jar": {
+    "coordinate": "jre:jre:zip:call:1.0.0",
+    "location": "C:\\Program Files (x86)\\Java\\jre1.8.0_20\\lib\\rt.jar",
+    "status": "RESOLVED",
+    "error": "No class path info available for \u0027C:\\Program Files (x86)\\Java\\jre1.8.0_20\\lib\\rt.jar\u0027. Skipped."
+  },
+  "C:\\Users\\Thanh\\Dropbox\\workspace\\notepad\\src": {
+    "location": "C:\\Users\\Thanh\\Dropbox\\workspace\\notepad\\src",
+    "status": "UNRESOLVED",
+    "error": "No class path info available for \u0027C:\\Users\\Thanh\\Dropbox\\workspace\\notepad\\src\u0027. Skipped."
+  },
+  "C:\\Users\\Thanh\\Documents\\Dropbox\\workspace\\notepad\\src": {
+    "location": "C:\\Users\\Thanh\\Documents\\Dropbox\\workspace\\notepad\\src",
+    "status": "UNRESOLVED",
+    "error": "No class path info available for \u0027C:\\Users\\Thanh\\Documents\\Dropbox\\workspace\\notepad\\src\u0027. Skipped."
+  },
+  "C:\\Program Files (x86)\\Java\\jre1.8.0_25\\lib\\rt.jar": {
+    "location": "C:\\Program Files (x86)\\Java\\jre1.8.0_25\\lib\\rt.jar",
+    "status": "UNRESOLVED",
+    "error": "No class path info available for \u0027C:\\Program Files (x86)\\Java\\jre1.8.0_25\\lib\\rt.jar\u0027. Skipped."
+  }
+}
